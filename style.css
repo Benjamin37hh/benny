@@ -31,7 +31,7 @@ header ul {
 }
 
 .hero {
-    background-image: url(/backgroundbild.jpg);
+    background-image: url(backgroundbild.jpg);
     background-size: cover;
 
 
@@ -77,7 +77,7 @@ h2 {
 }
 
 main {
-    background-image: url(/backgroundbild.jpg);
+    background-image: url(backgroundbild.jpg);
 
 }
 
@@ -109,5 +109,5 @@ div .card ul {
 }
 
 footer {
-    background-image: url(/backgroundbild.jpg);
+    background-image: url(backgroundbild.jpg);
 }
