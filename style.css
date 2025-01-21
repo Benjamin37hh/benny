@@ -103,6 +103,7 @@ div .card ul {
     transition: all 1s;
 }
 
+
 .img-comp-img img:hover {
     transform: rotate(360deg)
 }
