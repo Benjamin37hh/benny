@@ -28,7 +28,7 @@ h1, h2 {
 }
 
 .card:hover {
-    background-color: blue;
+    background-color: red;
 }
 
 /* Spezifische Anpassungen */
