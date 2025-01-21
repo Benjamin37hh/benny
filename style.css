@@ -1,67 +1,18 @@
-header {
-    display: flex;
-    justify-content: space-between;
-
-    background-color: rgb(15, 128, 0);
-    align-items: center;
-    padding: 20px;
-
+/* Allgemeine Styles */
+body {
+    font-family: Arial, sans-serif;
 }
 
-header img {
-    width: 400px;
-}
-
-header li {
-    border: 1px solid yellowgreen;
-    padding: 10px;
-
-
-
-
-}
-
-header li:hover {
-    background-color: purple
-}
-
-header ul {
-    display: flex;
-    list-style: none;
-}
-
-.hero {
-    background-image: url(/backgroundbild.jpg);
-    background-size: cover;
-
-
-    display: flex;
-    align-items: center;
-
-}
-
-.hero h1 {
-    color: black;
-    font-size: 40px;
-    width: 400px;
-    height: 200px;
-
-
-
-
-}
-
-h2 {
-    font-size: 40px;
+h1, h2 {
     text-align: center;
-    background-color: rgb(0, 0, 0);
-    color: green;
 }
 
 .container {
     display: flex;
-    justify-content: center;
-    gap: 50px;
+    justify-content: center; /* Zentriert die Cards */
+    gap: 30px;/* Kleinerer Abstand zwischen den Cards */
+    flex-wrap: wrap; /* Sorgt dafür, dass sie umbrechen, wenn der Platz zu wenig wird */
+    margin-top: 20px;
 }
 
 .card {
@@ -69,44 +20,46 @@ h2 {
     padding: 30px;
     width: 300px;
     background-color: rgba(255, 255, 255, 0.921);
+    margin-bottom: 20px;
+}
 
+.card img {
+    width: 100%;
 }
 
 .card:hover {
     background-color: blue;
 }
 
-main {
-    background-image: url(/backgroundbild.jpg);
-
+/* Spezifische Anpassungen */
+ul {
+    list-style: none;
+    padding: 0;
 }
 
-.card img {
-    width: 150px;
+ul li {
+    margin-bottom: 10px;
 }
 
-.tett {
-    width: 400px;
+a {
+    text-decoration: none;
+    color: blue;
 }
 
-
-div .card ul {
-
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    font-size: 20px;
-
+a:hover {
+    text-decoration: underline;
 }
 
-.img-comp-img img {
-    transition: all 1s;
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 
-.img-comp-img img:hover {
-    transform: rotate(360deg)
-}
-
-footer {
-    background-image: url(/backgroundbild.jpg);
+button:hover {
+    background-color: darkgreen;
 }
