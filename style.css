@@ -3,55 +3,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-<<<<<<< HEAD
 h1, h2 {
-=======
-header img {
-    width: 400px;
-}
-
-header li {
-    border: 1px solid yellowgreen;
-    padding: 10px;
-
-
-
-
-}
-
-header li:hover {
-    background-color: purple
-}
-
-header ul {
-    display: flex;
-    list-style: none;
-}
-
-.hero {
-    background-image: url(backgroundbild.jpg);
-    background-size: cover;
-
-
-    display: flex;
-    align-items: center;
-
-}
-
-.hero h1 {
-    color: black;
-    font-size: 40px;
-    width: 400px;
-    height: 200px;
-
-
-
-
-}
-
-h2 {
-    font-size: 40px;
->>>>>>> 8ac0d9e3347ae6349ed9416ef1eb155918c268cd
     text-align: center;
 }
 
@@ -79,16 +31,10 @@ h2 {
     background-color: blue;
 }
 
-<<<<<<< HEAD
 /* Spezifische Anpassungen */
 ul {
     list-style: none;
     padding: 0;
-=======
-main {
-    background-image: url(backgroundbild.jpg);
-
->>>>>>> 8ac0d9e3347ae6349ed9416ef1eb155918c268cd
 }
 
 ul li {
@@ -114,16 +60,6 @@ button {
     cursor: pointer;
 }
 
-<<<<<<< HEAD
 button:hover {
     background-color: darkgreen;
-=======
-
-.img-comp-img img:hover {
-    transform: rotate(360deg)
-}
-
-footer {
-    background-image: url(backgroundbild.jpg);
->>>>>>> 8ac0d9e3347ae6349ed9416ef1eb155918c268cd
 }
