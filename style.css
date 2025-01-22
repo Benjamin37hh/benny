@@ -63,3 +63,8 @@ button {
 button:hover {
     background-color: darkgreen;
 }
+
+main {
+    background-image: url(./hintergrund.jpg);
+
+}
